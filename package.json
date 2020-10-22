@@ -1,0 +1,19 @@
+{
+  "name": "personalwalletapi",
+  "version": "0.1.0",
+  "description": "This is an API for personal use so users can maintain and record their expenses and income",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon --ignore db.json server.js"
+  },
+  "author": "Ikhwan Bayu Adhi Setiawan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "hyperid": "^2.0.5",
+    "lowdb": "^1.0.0"
+  }
+}
